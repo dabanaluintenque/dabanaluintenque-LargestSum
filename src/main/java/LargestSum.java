@@ -15,7 +15,7 @@ public class LargestSum {
 
         int secondMax = 0;
         int max = 0;
-        int totalSum = 0;
+       
 
         for (int i = 0; i < size ; i ++) {
 
@@ -30,7 +30,7 @@ public class LargestSum {
             }
 
         }
-        totalSum = max + secondMax;
+       int totalSum = max + secondMax;
 
         return totalSum;
     }
